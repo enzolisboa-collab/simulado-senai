@@ -1,0 +1,22 @@
+:root {
+  /* Fundos */
+  --bg-pagina: #f3f5f8;
+  --bg-card-claro: #ffffff;
+  --bg-card-escuro: #333333;
+
+  /* Textos */
+  --texto-escuro: #1e293b;
+  --texto-claro: #ffffff;
+
+  /* Destaque da Marca */
+  --cor-primaria: #4b39b5;
+  --cor-fundo: #e6e4f4;
+}
+body{
+background-color: var(--cor-fundo);
+display: flex;
+}
+header{
+    display: flex;
+    border-bottom: 5px; 
+}
